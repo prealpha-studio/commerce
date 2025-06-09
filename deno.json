@@ -46,7 +46,7 @@
     ]
   },
   "deploy": {
-    "project": "2fdc3956-168d-41ab-b559-b14b4727fba3",
+    "project": "alphaprototype",
     "exclude": [
       "**/node_modules"
     ],
