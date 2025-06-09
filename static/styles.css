@@ -1,12 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Silka Mono';
+  src: url('/silka-mono/SilkaMono-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Silka Mono';
+  src: url('/silka-mono/SilkaMono-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Silka Mono';
+  src: url('/silka-mono/SilkaMono-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  background-color: black;
+}
+
 .fresh-gradient {
-  background-color: rgb(134, 239, 172);
-  background-image: linear-gradient(
-    to right bottom,
-    rgb(219, 234, 254),
-    rgb(187, 247, 208),
-    rgb(254, 249, 195)
-  );
+  background-color: black;
+}
+
+.silka-mono {
+  font-family: 'Silka Mono', monospace;
 }

@@ -9,7 +9,7 @@ export default function App({ Component }: PageProps) {
         <title>alpha prototype -- 2025</title>
         <link rel="stylesheet" href="/styles.css" />
       </head>
-      <body>
+      <body class="bg-black">
         <Component />
       </body>
     </html>
